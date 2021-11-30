@@ -44,8 +44,9 @@ class CreditsState extends MusicBeatState
 
 		grpOptions = new FlxTypedGroup<Alphabet>();
 		add(grpOptions);
-
 		var pisspoop = [ //Name - Icon name - Description - Link - BG Color
+					['Android Port'],
+			['Plusardx(Neon)',		    'plusardx(neon)',		    'Ported by Plusardx',	 'https://youtube.com/channel/UC79hR4wLFO1fORZPaKY1XAw',	'0xFFC30085'],
 					['Ported This'],
 			['Kaze',		    'kaze',		    'Ported This Mod, Go thank M.A Jigsaw For The port.',	 'https://youtube.com/channel/UCSfF8QalIv3Lot8heWIrBJw',	'0xFFC30089'],
 			['Android Port'],
